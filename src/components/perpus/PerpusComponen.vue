@@ -177,7 +177,6 @@ const deleteBuku = (buku) => {
       </button>
     </div>
 
-    <!-- Modal Form -->
     <div v-if="isOpen" class="fixed inset-0 bg-[#28282880] flex justify-center items-center z-50">
       <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-xl relative">
         <button class="absolute top-2 right-3 text-gray-500 text-2xl" @click="isOpen = false">
